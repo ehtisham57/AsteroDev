@@ -1,0 +1,71 @@
+.navLinks{
+    color: #FFFF ;
+    font-size: 14px ;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+/* .button_Group{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+.btn-1{
+    border-radius: 25px;
+    border: 2px solid #00AB8A;
+    text-transform: uppercase;
+    color: #00AB8A;
+    padding: 5px 25px;
+    font-size: 15px;
+    font-weight: 500;
+    width: fit-content;
+}
+.btn-1:hover{
+    background-color: #00AB8A;
+}
+.btn-2{
+    border-radius: 25px;
+    background-color: #00AB8A;
+    border: 2px solid #00AB8A;
+    text-transform: uppercase;
+    color: #FFFF;
+    padding: 5px 25px;
+    font-size: 15px;
+    font-weight: 500;
+    width: fit-content;
+}
+.btn-2:hover{
+    background-color: #FFFF;
+    border: 2px solid #00AB8A;
+    text-transform: uppercase;
+    color: #00AB8A;
+}
+.navtogglebtn{
+    border-radius: 25px;
+    text-decoration: none;
+    border: 1px solid #00AB8A;
+    color: #00AB8A;
+    padding: 5px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    width: fit-content;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .btn-1{
+        margin: 10px 0;
+    }
+    .btn-2{
+        margin: 10px 0;
+    }
+    .NavLinksDiv{
+        justify-content: center;
+        align-items: center;
+    }
+    .button_Group{
+        justify-content: center;
+        align-items: center;
+    }
+}

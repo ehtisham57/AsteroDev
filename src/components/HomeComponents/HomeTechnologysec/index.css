@@ -1,0 +1,66 @@
+.HomeTechnologysec {
+    background-color: black;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.HomeTechnologyseccont {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeTechnologyHeading>h1 {
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.HomeTechnologyHeading>p {
+    padding-top: 20px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0em;
+    line-height: 25px;
+    text-align: left;
+    color: #FFF;
+}
+
+@media screen and (max-width: 768px) {
+    .HomeTechnologyHeading {
+        padding: 30px 0;
+    }
+
+    .HomeTechnologyHeading>h1 {
+        font-size: 60px !important;
+        line-height: 50px !important;
+    }
+
+    .HomeTechnologyHeading>p {
+        font-size: 20px;
+        line-height: 20px;
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    
+
+    .HomeTechnologyHeading>h1 {
+        font-size: 40px !important;
+        line-height: 40px !important;
+    }
+
+    .HomeTechnologyHeading>p {
+        font-size: 14px;
+        line-height: 15px;
+        padding: 30px 0;
+    }
+}

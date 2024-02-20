@@ -1,0 +1,92 @@
+.CardSecmain {
+    background: #2C2C2C;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.CardSecmainFirstdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    /* align-items: center; */
+}
+
+.CardSecmainFirstdiv>h3 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.CardSecmainbtn {
+    margin-top: 50px;
+    width: fit-content;
+    border-radius: 30px;
+    padding: 5px 20px;
+    background: #02FACA;
+    color: #090909;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.cardimage {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+.maincardcot {
+    background: #161616;
+    color: #fff;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.maincardcotTitle {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.maincardcotpara{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+@media screen and (max-width: 768px) {
+    .CardSecmain{
+        padding: 0;
+    }
+    .CardSecmainFirstdiv{
+        padding-top: 30px;
+    }
+    
+    .CardSecmainbtn {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .CardSecmain{
+        padding: 0;
+    }
+    .CardSecmainFirstdiv > h3{
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
