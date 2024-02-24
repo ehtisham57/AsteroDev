@@ -9,9 +9,9 @@ const CustomerCard = ({src,username,detail,heading,paragraph}) => {
                             <p>{paragraph}</p>
                         </div>
 
-                        <div className='HomeSatisfiedCarProfile d-flex flex-column row'>
-                            <img src={src} />
-                            <div className='my-3 HomeSatisfiedCarProfileuser'>
+                        <div className='HomeSatisfiedCarProfile d-flex row'>
+                            <img className='col-lg-6' src={src} />
+                            <div className='my-3 col-lg-6 HomeSatisfiedCarProfileuser'>
                                 <h6>{username}</h6>
                                 <p>{detail}</p>
                             </div>
