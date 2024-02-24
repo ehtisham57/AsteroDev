@@ -11,16 +11,24 @@
     background-size: cover;
     /* margin-top: -100px; */
     min-width: 100%;
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    position: absolute;
     /* opacity: .5;  */
 }
 
 
+/* .divStyle {
+    border: #02FACA 3px solid;
+    width: 289px;
+    height: 200px;
+    top: 266px;
+    position: relative;
+    right: 100px;
+} */
 
 .Homeimagediv>h5 {
     font-family: Inter, Arial, Helvetica, sans-serif;
@@ -70,43 +78,50 @@
 
 @media screen and (max-width: 1024px) {
     .Homeimagediv>h5 {
-       
+
         font-size: 70px;
         line-height: 50px;
     }
-    .Homeimagediv>h5> h3 {
-       
+
+    .Homeimagediv>h5>h3 {
+
         font-size: 50px;
         line-height: 50px;
     }
- 
+
 }
+
 @media screen and (max-width: 768px) {
-    .Homeimagediv{
+    .Homeimagediv {
         align-items: start;
     }
+
     .Homeimagediv>h5 {
 
         font-size: 60px;
         line-height: 50px;
     }
-    .Homeimagediv>h5> h3 {
-       
+
+    .Homeimagediv>h5>h3 {
+
         font-size: 50px;
         line-height: 50px;
     }
 }
+
 @media screen and (max-width: 425px) {
-    .Homeimagediv{
+    .Homeimagediv {
         align-items: start;
     }
+
     .Homeimagediv>h5 {
-       
+
         font-size: 30px;
         line-height: 30px;
     }
-    .Homeimagediv>h5> h3 {
-       
+
+    .Homeimagediv>h5>h3 {
+
         font-size: 20px;
         line-height: 30px;
     }

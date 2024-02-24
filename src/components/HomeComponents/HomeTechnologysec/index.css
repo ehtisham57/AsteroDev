@@ -1,6 +1,6 @@
 .HomeTechnologysec {
     background-color: black;
-    min-height: 100vh;
+    min-height: 40vh ;
     margin: 0;
 }
 
@@ -33,7 +33,33 @@
     color: #FFF;
 }
 
+.HomePromisesSecCardGrid{
+    /* min-height: 100vh; */
+}
+
+.HomePromisesSecCard{
+    background-color: black;
+    color: #FFF;
+    padding: 50px 0;
+}
+
+.HomePromisesSecCardTitle > h5{
+    /* position: relative; */
+    padding: 20px;
+    border-radius: 50%;
+    background: linear-gradient(127.13deg, #00AB8A 2.4%, #02FACA 26.27%, rgba(2, 248, 201, 0.85) 57.67%, #A2FFED 118.78%);
+
+    width: fit-content;
+}
+.HomePromisesSecCardTitle > p{
+    margin-top: 30px;
+}
+
+
 @media screen and (max-width: 768px) {
+    .HomeTechnologysec {
+        min-height: fit-content !important;
+    }
     .HomeTechnologyHeading {
         padding: 30px 0;
     }

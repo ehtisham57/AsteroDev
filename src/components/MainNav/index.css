@@ -4,6 +4,12 @@
     font-weight: 500;
     text-transform: uppercase;
     margin: 0 20px;
+    text-decoration: none;
+}
+.navLinks:hover{
+    color: #00AB8A ;
+    transition: all .7s;
+    border-bottom: #00AB8A 4px solid;
 }
 /* .button_Group{
     display: flex;

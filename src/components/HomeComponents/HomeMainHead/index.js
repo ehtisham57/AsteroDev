@@ -7,13 +7,15 @@ const HomeMainHead = () => {
         <>
             <div className='Homemaindiv'>
                 <div className='container Homeimagediv'>
-                    
+                   
                         <h5>
+                            {/* <div className='divStyle'> </div> */}
                             WE <br / >
                             IMPLEMENT<br / >
                             <h3>DEVELOPMENT SERVICES</h3>
                              
                         </h5>
+                    
                        <div className='paradiv'>
                        <p className='Homeparatext'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br / >

@@ -1,0 +1,100 @@
+.HomeSatisfiedCustomers {
+    background-color: black;
+    padding-top: 20px;
+}
+
+.HomeSatisfiedCustomersHeading {
+    padding: 50px 0;
+}
+
+.HomeSatisfiedCustomersHeading>h1 {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.HomeSatisfiedCard {
+
+    background-color: #343434 !important;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.HomeSatisfiedCardBody {
+    align-items: center;
+    justify-content: center;
+    background-color: #343434 !important;
+    padding: 20px 0;
+}
+
+.HomeSatisfiedCardBody>h1 {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.HomeSatisfiedCardBody>p {
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.HomeSatisfiedCarProfile {
+    width: 100px;
+    height: 100px;
+}
+
+.HomeSatisfiedCarProfileuser>h6 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+
+}
+
+.HomeSatisfiedCarProfileuser>p {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 0px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #fff;
+
+}
+
+@media screen and (max-width: 768px) {
+    .HomeSatisfiedCustomersHeading>h1 {
+        font-size: 50px;
+        line-height: 50px;
+        text-align: left;
+        margin: 0 !important;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    .HomeSatisfiedCustomersHeading>h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+}

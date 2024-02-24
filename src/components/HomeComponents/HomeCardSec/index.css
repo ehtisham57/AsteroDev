@@ -2,7 +2,9 @@
     background: #2C2C2C;
     justify-content: center;
     align-items: center;
-    padding: 10px 50px;
+    /* padding: 10px 50px; */
+    margin:  0 auto;
+    padding: 0 auto;
 }
 
 .CardSecmainFirstdiv {
@@ -16,9 +18,9 @@
 .CardSecmainFirstdiv>h3 {
     color: #fff;
     font-family: Inter;
-    font-size: 66px;
+    font-size: 60px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 55px;
     letter-spacing: 0em;
     text-align: left;
 }
@@ -45,10 +47,11 @@
 }
 
 .maincardcot {
+    overflow: hidden;
+    position: relative;
     background: #161616;
     color: #fff;
-    padding: 20px;
-    margin-left: 20px;
+    cursor: pointer;
 }
 
 .maincardcotTitle {
@@ -59,33 +62,89 @@
     letter-spacing: 0em;
     text-align: left;
 }
-.maincardcotpara{
+
+.maincardcotpara {
     font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
 
+.onHoverCard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+
+    background: rgba(2, 250, 202, 0.8);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.onHoverCard>h3 {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.onHoverCard>p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.onHoverCard>a {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+
+.maincardcot:hover .onHoverCard {
+    opacity: 1;
+}
+
 @media screen and (max-width: 768px) {
-    .CardSecmain{
+    .CardSecmain {
         padding: 0;
     }
-    .CardSecmainFirstdiv{
+
+    .CardSecmainFirstdiv {
         padding-top: 30px;
     }
-    
+
     .CardSecmainbtn {
         margin-top: 20px;
     }
 }
+
 @media screen and (max-width: 425px) {
-    .CardSecmain{
+    .CardSecmain {
         padding: 0;
     }
-    .CardSecmainFirstdiv > h3{
+
+    .CardSecmainFirstdiv>h3 {
         font-size: 40px;
         line-height: 40px;
     }

@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "./logo.png"
+import {NavLink} from 'react-router-dom'
 
 function MainNav() {
     return (
@@ -13,10 +14,10 @@ function MainNav() {
                 <Navbar.Toggle className="navtogglebtn" aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="NavLinksDiv m-auto">
-                        <Nav.Link className="navLinks" href="#features">HOME</Nav.Link>
-                        <Nav.Link className="navLinks" href="#pricing">ABOUT</Nav.Link>
-                        <Nav.Link className="navLinks" href="#features">Services</Nav.Link>
-                        <Nav.Link className="navLinks" href="#pricing">COntact</Nav.Link>
+                        <NavLink className="navLinks" to="/">HOME</NavLink>
+                        <NavLink className="navLinks" to="/About">ABOUT</NavLink>
+                        <NavLink className="navLinks" to="/Services">Services</NavLink>
+                        <NavLink className="navLinks" to="/Contact">Contact</NavLink>
                     </Nav>
                     {/* <Nav className="button_Group">
                         <Button className="btn-1 mx-2" variant="dark">Sign Up</Button>

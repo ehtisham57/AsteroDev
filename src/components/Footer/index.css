@@ -1,0 +1,197 @@
+.FooterMain {
+    background: #313131;
+}
+
+.FooterHeading {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.FooterHeading>h1 {
+    font-family: Inter;
+    font-size: 115px;
+    font-weight: 400;
+    line-height: 139px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.FooterHeading>h1>span {
+    color: #00BDAA;
+}
+
+.FooterBody {
+    padding: 50px 0;
+    color: #fff;
+    border-top: #767676 3px solid;
+    border-bottom: #767676 3px solid;
+}
+
+.LogoText>img {
+    width: 150px;
+    height: 150px;
+}
+
+.LogoText>p {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-right: 30px;
+
+}
+
+.QuickLinks>h1 {
+    padding-bottom: 30px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.QuickLinksRow {
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterLinksClick {
+
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+}
+
+.FooterLinksClick:hover {
+    color: #00BDAA;
+    transition: all .3s;
+
+}
+
+
+.Address>h1 {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    padding-bottom: 30px;
+
+}
+
+.Address {
+    justify-content: center;
+    text-align: center;
+}
+
+.AddressInfo {
+    justify-content: center;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.FooterAddressIcon {
+    font-size: 30px;
+    color: #00BDAA;
+    margin-right: 10px;
+}
+
+.FooterFooter {
+    padding: 40px 0;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.FooterFooterLinks {
+    width: 100%;
+}
+
+.Footertruspilot {
+    justify-content: start;
+}
+
+.FooterCopyrigth {
+    justify-content: center;
+}
+
+.FooterCopyrigth>p {
+    color: #CFCFCF;
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.Footerterms {
+    justify-content: end;
+}
+.Footerterms > div {
+    border: 2px solid #CFCFCF;
+    margin: 0 20px;
+    padding: 10px 0;
+}
+.Footerterms>p {
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #CFCFCF;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .FooterHeading>h1 {
+        font-size: 80px;
+        line-height: 40px;
+    }
+
+    .QuickLinks>h1 {
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .Address {
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .AddressInfo {
+        justify-content: left;
+    }
+    .Footerterms {
+        justify-content: start;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .Footertruspilot {
+        justify-content: start;
+        margin-top: 20px;
+    }
+    
+    .FooterCopyrigth {
+        justify-content: start;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .FooterHeading>h1 {
+        font-size: 40px;
+    }
+}
