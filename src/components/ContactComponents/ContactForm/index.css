@@ -1,0 +1,73 @@
+.ContactForm {
+    background-color: black;
+}
+
+.ContactFormRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactFormLeft>h1 {
+    font-family: Inter;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.ContactFormLeft>p {
+    margin: 30px 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.ContactFormRight {
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #313131;
+    color: #fff;
+}
+
+.ContactFormRight>h1 {
+    margin: 30px 0;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0em;
+}
+
+.ContactFormRight>p {
+    margin: 30px 30px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.ContactMainForm {
+    width: 100%;
+    padding: 20px;
+}
+
+.ContactMainForm>input {
+    width: 90%;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 20px;
+}
