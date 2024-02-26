@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.ContactItpartnerSec {
+    background-color: #000;
+}
+
+.ContactItpartnerSecRow {
+    margin: auto;
+    padding: 50px 0;
+}
+
+.ContactItpartnerSecimg {
+    position: relative;
+
+}
+
+.peopleImagecontact {
+    width: 70%;
+    height: 100%;
+}
+
+.dotsImage {
+    position: absolute;
+    top: 30px;
+    right: 10%;
+}
+
+
+.ContactItpartnerSecMainHeading>h1 {
+    font-family: Inter;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 50px;
+
+}
+
+.ContactItpartnerSecMainHeading>p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.ContactItpartnerSecMiniCardRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.ContactItpartnerSecMini {
+    padding: 20px 10px;
+    margin: 10px;
+
+    background: #313131;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.ContactItpartnerSecMini>img {
+    width: 50px;
+}
+
+.ContactItpartnerSecMini>p {
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+    color: #fff;
+
+}
+
+.ContactpartPeopleCard {
+    justify-content: right;
+    align-items: flex-end;
+    padding: 20px;
+    display: flex;
+    background-color: #313131;
+    width: 65%;
+}
+
+.ContactpartPeopleCard>img {
+    text-align: right;
+    width: 150px;
+    margin: 0;
+}
+
+.ContactpartPeopleCardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.ContactpartPeopleCardText>h1 {
+    color: #fff;
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.ContactpartPeopleCardText>p {
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .ContactItpartnerSecimg>img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .ContactItpartnerSecMainHeading {
+        margin-top: 20px;
+    }
+
+    .ContactItpartnerSecMainHeading>h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .ContactItpartnerSecListDown>p {
+        font-size: 14px;
+        line-height: 15px;
+        padding: 30px 0;
+    }
+
+    .ContactItpartnerSecparaDown>p {
+        font-size: 14px;
+        line-height: 15px;
+        padding: 30px 0;
+    }
+
+    .dotsImage {
+        display: none;
+    }
+
+    .peopleImagecontact {
+        width: 50%;
+    }
+
+    .ContactpartPeopleCard {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .ContactpartPeopleCardText>h1 {
+        color: #fff;
+        font-family: Inter;
+        font-size: 20px;
+
+    }
+}
