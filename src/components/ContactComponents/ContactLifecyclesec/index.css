@@ -57,7 +57,6 @@
 .ContactItpartnerSecMini {
     padding: 20px 10px;
     margin: 10px;
-
     background: #313131;
     display: flex;
     align-items: end;
@@ -169,6 +168,16 @@
 
     .ContactpartPeopleCard {
         width: 100%;
+    }
+    .ContactpartPeopleCard>img {
+        text-align: left;
+    }
+    .ContactpartPeopleCard {
+        justify-content: right;
+        align-items: start;
+    }
+    .ContactItpartnerSecMini {
+        align-items: start;
     }
 
 }

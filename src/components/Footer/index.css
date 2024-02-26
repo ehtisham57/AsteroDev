@@ -30,8 +30,9 @@
 }
 
 .LogoText>img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 100px;
+    margin-bottom: 30px;
 }
 
 .LogoText>p {
