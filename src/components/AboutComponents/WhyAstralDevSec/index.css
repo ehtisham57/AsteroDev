@@ -1,0 +1,233 @@
+.WhyAstralDevSec {
+    background-color: #1E1E1E;
+}
+
+.WhyAstralDevSecDivider {
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.WhyAstralDevSecMainHeading {
+    margin-left: 40px;
+}
+
+.WhyAstralDevSecMainHeading>h1 {
+    font-family: Inter;
+    text-transform: capitalize;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 50px;
+
+}
+
+.WhyAstralDevSecMainHeading>p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.WhyAstralDevSecparaDownButton {
+    margin: 30px 0;
+    align-items: left;
+    border-radius: 10px;
+    padding: 5px 30px;
+    background: #02FACA;
+    color: #090909;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.WhyAstralDevSecDividleft {
+    position: relative;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.CustomaziedApproach {
+    background-color: #313131;
+    color: #fff;
+    border-radius: 10px;
+    width: 70%;
+    margin-bottom: 30px;
+    padding: 30px 10px;
+    height: fit-content;
+}
+
+.CustomaziedApproach>h1 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.CustomaziedApproach>p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 100px;
+
+}
+
+.CustomaziedApproachImage {
+    position: relative;
+}
+
+.CustomaziedApproachImage>img {
+    width: 70px;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+
+}
+
+.ResultsDrivenSolutions {
+    border-radius: 10px;
+    background-color: #313131;
+    color: #fff;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 30px;
+    padding: 30px 10px;
+    height: fit-content;
+}
+
+.ResultsDrivenSolutions>h1 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ResultsDrivenSolutions>p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 70px;
+
+}
+
+.ResultsDrivenSolutionsImage {
+    position: relative;
+}
+
+.ResultsDrivenSolutionsImage>img {
+    width: 70px;
+    align-items: end;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    margin: 0;
+}
+
+
+.PersonalizedBusinessPackage {
+    background-color: #313131;
+    color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    padding: 30px 10px;
+    height: fit-content;
+}
+
+.PersonalizedBusinessPackage>h1 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.PersonalizedBusinessPackage>p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 60px;
+
+}
+
+.PersonalizedBusinessPackageImage {
+    position: relative;
+}
+
+.PersonalizedBusinessPackageImage>img {
+    width: 70px;
+    align-items: end;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    margin: 0;
+
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .WhyAstralDevSecMainHeading>h1 {
+        font-size: 40px;
+    }
+
+    .WhyAstralDevSecDividleft {
+        margin-bottom: 50px;
+    }
+
+    .CustomaziedApproach {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .WhyAstralDevSecMainHeading {
+        margin-left: 0;
+    }
+
+    .WhyAstralDevSecMainHeading>h1 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .WhyAstralDevSecMainHeading>p {
+        margin-top: 30px;
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .WhyAstralDevSecMainHeading>h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}

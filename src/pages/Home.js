@@ -4,7 +4,7 @@ import {HomeItPartSec} from '../components/HomeComponents/HomeITpartnersec'
 import HomeTechnologysec from '../components/HomeComponents/HomeTechnologysec'
 import HomeCardSec from '../components/HomeComponents/HomeCardSec'
 import {HomePromisesSec} from '../components/HomeComponents/HomePromisesSec'
-import {HomeSatisfiedCustomers} from '../components/HomeComponents/HomeSatisfiedCustomers'
+import { SliderSatisfiedCustomers } from '../components/allComponents/SliderSatisfiedCustomers'
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
     <HomeTechnologysec />
     <HomeCardSec />
     <HomePromisesSec />
-    <HomeSatisfiedCustomers />  
+    <SliderSatisfiedCustomers />  
     </>
   )
 }

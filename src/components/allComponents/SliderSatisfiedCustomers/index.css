@@ -1,13 +1,13 @@
-.HomeSatisfiedCustomers {
+.SliderSatisfiedCustomers {
     background-color: black;
     padding-top: 20px;
 }
 
-.HomeSatisfiedCustomersHeading {
+.SliderSatisfiedCustomersHeading {
     padding: 50px 0;
 }
 
-.HomeSatisfiedCustomersHeading>h1 {
+.SliderSatisfiedCustomersHeading>h1 {
     font-family: Inter;
     font-size: 60px;
     font-weight: 700;
@@ -16,11 +16,11 @@
     text-align: center;
     color: #fff;
 }
-.HomeCustomerCard{
+.SliderCustomerCard{
     padding-bottom: 50px;
 }
 
-.HomeSatisfiedCard {
+.SliderSatisfiedCard {
     user-select: none;
     overflow: hidden;
     background-color: #343434 !important;
@@ -30,14 +30,14 @@
     color: #fff;
 }
 
-.HomeSatisfiedCardBody {
+.SliderSatisfiedCardBody {
     align-items: center;
     justify-content: center;
     background-color: #343434 !important;
     padding: 20px 0;
 }
 
-.HomeSatisfiedCardBody>h5 {
+.SliderSatisfiedCardBody>h5 {
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
@@ -47,7 +47,7 @@
 
 }
 
-.HomeSatisfiedCardBody>p {
+.SliderSatisfiedCardBody>p {
     margin-top: 30px;
     font-family: Inter;
     font-size: 14px;
@@ -58,19 +58,19 @@
 }
 
 
-.HomeSatisfiedCarProfile {
+.SliderSatisfiedCarProfile {
     display: flex;
     flex: row;
 }
-.HomeSatisfiedCarProfile > img{
+.SliderSatisfiedCarProfile > img{
     width: 100px;
     border-radius: 50%;
     height: 80px;
 }
-.HomeSatisfiedCarProfileuser{
+.SliderSatisfiedCarProfileuser{
     overflow: hidden;
 }
-.HomeSatisfiedCarProfileuser>h6 {
+.SliderSatisfiedCarProfileuser>h6 {
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
@@ -80,7 +80,7 @@
 
 }
 
-.HomeSatisfiedCarProfileuser>p {
+.SliderSatisfiedCarProfileuser>p {
     font-family: Nunito;
     font-size: 14px;
     font-weight: 100;
@@ -93,7 +93,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .HomeSatisfiedCustomersHeading>h1 {
+    .SliderSatisfiedCustomersHeading>h1 {
         font-size: 50px;
         line-height: 50px;
         text-align: left;
@@ -102,7 +102,7 @@
     
 }
 @media screen and (max-width: 425px) {
-    .HomeSatisfiedCustomersHeading>h1 {
+    .SliderSatisfiedCustomersHeading>h1 {
         font-size: 30px;
         line-height: 30px;
     }

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./index.css"
-import CustomerCard from '../../allComponents/CustomerCard'
+import CustomerCard from '../CustomerCard'
 import sara from "./assets/sarah.jpg"
 import Alex from "./assets/Alex Rodriguez.jpg"
 import Emily from "./assets/Emily Johnson.jpg"
@@ -10,18 +10,18 @@ import michael from "./assets/Michael Bennett.png"
 import robert from "./assets/Robert Parker.jpg"
 import devid from "./assets/David Miller.jpg"
 
-export const HomeSatisfiedCustomers = () => {
+export const SliderSatisfiedCustomers = () => {
     return (
-        <div className='HomeSatisfiedCustomers container-fluid'>
+        <div className='SliderSatisfiedCustomers container-fluid'>
             <div className='mx-auto d-flex justify-content-center container'>
-                <div className='HomeSatisfiedCustomersHeading'>
+                <div className='SliderSatisfiedCustomersHeading'>
                     <h1>
                         Words from Satisfied < br /> Customers
                     </h1>
                 </div>
             </div>
             <div>
-                <div className='HomeCustomerCard row container mx-auto '>
+                <div className='SliderCustomerCard row container mx-auto '>
                     <CustomerCard
                         heading="“A Remarkable Web Development Journey”"
                         src={sara}
