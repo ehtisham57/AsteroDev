@@ -5,6 +5,8 @@ const ContactFormCom = () => {
   const [formData, setFormData] = useState({
     username: '',
     email: '',
+    number:'',
+    message: '',
   });
 
   // Event handler for input changes
@@ -22,6 +24,9 @@ const ContactFormCom = () => {
     // Perform actions with form data (e.g., submit to a server)
     console.log('Form submitted:', formData);
   };
+
+
+
 
   return (
     <form className='ContactMainForm' onSubmit={handleSubmit}>
@@ -46,19 +51,19 @@ const ContactFormCom = () => {
         placeholder='Phone Number'
           type="number"
           name="phone"
-          value={formData.email}
+          value={formData.number}
           onChange={handleInputChange}
         />
          <br />
          <input
         placeholder='Message'
-          type="textaria"
+          type="text"
           name="email"
-          value={formData.email}
+          value={formData.message}
           onChange={handleInputChange}
         />
          <br />
-      <button type="submit">Submit</button>
+      <button onSubmit={handleSubmit} type="submit">Submit</button>
     </form>
   );
 };
