@@ -22,7 +22,7 @@ const HomeMainHead = () => {
                              Etiam aliquam hendrerit lacus eget varius. Integer efficitur <br / > augue a laoreet tempor. 
                             
                         </p>
-                         <Button className="Homemainbutton mx-2" variant="dark">get Started <i class="bi bi-arrow-right-circle"></i></Button> 
+                         <Button className="Homemainbutton mx-2" variant="dark">get Started <i className="bi bi-arrow-right-circle"></i></Button> 
                        </div>
                        
                 </div>

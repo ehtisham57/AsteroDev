@@ -29,8 +29,8 @@ export const AboutItPartSec = () => {
 
         <div className='AboutItpartnerSecimg col-lg-6 col-md-12'>
           <div className='AboutpartPeople'>
-          <img className="dotsImage" src={dots} />
-            <img className="peopleImage" src= {people}/>
+          <img className="dotsImage" src={dots} alt='image'/>
+            <img className="peopleImage" src= {people} alt='image'/>
            
             <div className='AboutpartnerDevelopment'>
               <div className='AboutpartnerDevelopmentText'>

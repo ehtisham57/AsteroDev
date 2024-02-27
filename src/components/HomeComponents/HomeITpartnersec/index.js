@@ -8,7 +8,7 @@ export const HomeItPartSec = () => {
     <div className='HomeItpartnerSec container-fluid'>
       <div className='HomeItpartnerSecRow container row'>
         <div className='HomeItpartnerSecimg col-lg-6 col-md-12'>
-          <img src={it} />
+          <img src={it} alt='image'/>
         </div>
         <div className=' col-lg-6 col-md-12'>
           <div className='HomeItpartnerSecMainHeading'>

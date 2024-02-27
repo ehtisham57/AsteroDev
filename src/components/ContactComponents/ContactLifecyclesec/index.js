@@ -22,15 +22,15 @@ export const ContactLifecyclesec = () => {
             </h1>
             <div className='row ContactItpartnerSecMiniCardRow mx-0'>
               <div className='col-lg-3 col-md-12 ContactItpartnerSecMini'>
-                <img src={v1} />
+                <img src={v1} alt='image' />
                 <p>Planning & Requirements Gathering</p>
               </div>
               <div className='col-lg-3 col-md-12 ContactItpartnerSecMini'>
-                <img src={v2} />
+                <img src={v2} alt='image' />
                 <p>Development and Implementation</p>
               </div>
               <div className='col-lg-3 col-md-12 ContactItpartnerSecMini'>
-                <img src={v3} />
+                <img src={v3} alt='image' />
                 <p>Deployment and System Maintenance</p>
               </div>
             </div>
@@ -42,9 +42,9 @@ export const ContactLifecyclesec = () => {
 
         <div className='ContactItpartnerSecimg col-lg-6 col-md-12'>
           <div className='ContactpartPeople'>
-            <img className="dotsImage" src={dots} />
+            <img className="dotsImage" src={dots} alt='image'/>
             <div className='card ContactpartPeopleCard'>
-              <img className="peopleImagecontact" src={contactreaserch} />
+              <img className="peopleImagecontact" src={contactreaserch} alt='image' />
               <div className='ContactpartPeopleCardText'>
                 <h1>Research Pre Production</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />

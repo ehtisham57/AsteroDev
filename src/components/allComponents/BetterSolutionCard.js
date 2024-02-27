@@ -6,7 +6,7 @@ export const BetterSolutionCard = ({src , cardTitleHover, CardTitle, CardPara , 
     <>
     <div className='col-lg-6'>
                         <Card className='maincardcot my-2 ' >
-                            <Card.Img className='cardimage' variant="top" src={src} />
+                            <Card.Img className='cardimage' variant="top" src={src} alt='image'/>
                             <Card.Body>
                                 <Card.Title className='maincardcotTitle'>{CardTitle}</Card.Title>
                                 <Card.Text className='maincardcotpara'>{CardPara}</Card.Text>

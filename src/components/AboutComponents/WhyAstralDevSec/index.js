@@ -21,7 +21,7 @@ export const WhyAstralDevSec = () => {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam hendrerit lacus eget varius. Integer efficitur augue a laoreet tempor.
                                     </p>
                                     <div className='PersonalizedBusinessPackageImage'>
-                                    <img src={personal} />
+                                    <img src={personal} alt='image' />
                                     </div>
                                 </div>
                                
@@ -36,7 +36,7 @@ export const WhyAstralDevSec = () => {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit
                                     </p>
                                     <div className='CustomaziedApproachImage'>
-                                    <img src={mobile} />
+                                    <img src={mobile} alt='image' />
                                     </div>
                                 </div>
                                 <div className='ResultsDrivenSolutions'>
@@ -47,7 +47,7 @@ export const WhyAstralDevSec = () => {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam hendrerit lacus eget varius. Integer efficitur augue a laoreet tempor.
                                     </p>
                                     <div className='ResultsDrivenSolutionsImage'>
-                                    <img src={lock} />
+                                    <img src={lock} alt='image' />
                                     </div>
                                 </div>
                                

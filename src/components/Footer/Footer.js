@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className='FooterBody '>
                     <div className='row justify-content-evenly d-flex'>
                         <div className='col-lg-4 LogoText'>
-                            <img src={logo} />
+                            <img src={logo} alt='image'/>
                             <p>We help you make the most of your investment with
                                 end-to-end premium web solutions suited to your precise
                                 digitalization requirements.
@@ -71,7 +71,7 @@ const Footer = () => {
                     <div className='d-flex row FooterFooterLinks'>
                         <div className='col-lg-4'>
                             <div className='d-flex Footertruspilot'>
-                                <img src={star} className='mx-0' /> <img className='mx-0' src={tul} />
+                                <img src={star} className='mx-0' alt='image'/> <img className='mx-0' src={tul} alt='image' />
                             </div>
                         </div>
                         <div className='col-lg-4'>

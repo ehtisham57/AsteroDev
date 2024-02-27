@@ -39,7 +39,7 @@ export const HomePromisesSec = () => {
                     </p>
                 </div>
                 <div className='HomePromisesSecDownImag col-lg-6 '>
-                   <img src={HomePromiseImage} />
+                   <img src={HomePromiseImage} alt='image'/>
                 </div>
             </div>
         </div>

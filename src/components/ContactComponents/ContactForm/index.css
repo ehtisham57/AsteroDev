@@ -70,5 +70,19 @@
     border-radius: 10px;
     border: 1px solid #fff;
     padding: 5px 20px;
-    margin: 20px;
+    margin: 10px 0; 
+}
+.ContactMainForm >button{
+    margin-top: 50px;
+    align-items: left;
+    border-radius: 30px;
+    padding: 5px 30px;
+    background: #02FACA;
+    color: #090909;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: capitalize;
 }

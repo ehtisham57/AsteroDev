@@ -1,7 +1,6 @@
 import React from 'react'
 import "./index.css"
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import v1 from "./assets/v1.png";
 import v2 from "./assets/v2.png"
 import v4 from "./assets/v4.png"
@@ -18,7 +17,7 @@ const HomeCardSec = () => {
                 <h3>
                     Building <br /> better <br /> solutions!
                 </h3>
-                <Button className="CardSecmainbtn" variant="dark">get Started <i class="bi bi-arrow-right-circle"></i></Button>
+                <Button className="CardSecmainbtn" variant="dark">get Started <i className="bi bi-arrow-right-circle"></i></Button>
             </div>
             <div className='col-lg-8'>
                 <div className='row my-3'>

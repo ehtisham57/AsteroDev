@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import { Button } from 'react-bootstrap';
 
 const ContactFormCom = () => {
   // State to manage form data
   const [formData, setFormData] = useState({
     username: '',
     email: '',
-    number:'',
+    number: '',
     message: '',
   });
 
@@ -30,40 +31,46 @@ const ContactFormCom = () => {
 
   return (
     <form className='ContactMainForm' onSubmit={handleSubmit}>
-    
-        <input
+
+      <input
         placeholder='Name'
-          type="text"
-          name="username"
-          value={formData.username}
-          onChange={handleInputChange}
-        />
+        type="text"
+        name="username"
+        value={formData.username}
+        onChange={handleInputChange}
+      />
       <br />
-        <input
+      <input
         placeholder='Email'
-          type="email"
-          name="email"
-          value={formData.email}
-          onChange={handleInputChange}
-        />
+        type="email"
+        name="email"
+        value={formData.email}
+        onChange={handleInputChange}
+      />
       <br />
       <input
         placeholder='Phone Number'
-          type="number"
-          name="phone"
-          value={formData.number}
-          onChange={handleInputChange}
-        />
-         <br />
-         <input
+        type="number"
+        name="phone"
+        value={formData.number}
+        onChange={handleInputChange}
+      />
+      <br />
+      <input
         placeholder='Message'
-          type="text"
-          name="email"
-          value={formData.message}
-          onChange={handleInputChange}
-        />
-         <br />
-      <button onSubmit={handleSubmit} type="submit">Submit</button>
+        type="text"
+        name="email"
+        value={formData.message}
+        onChange={handleInputChange}
+      />
+      <br />
+      <Button
+        onSubmit={handleSubmit}
+        type="submit"
+        className="Homemainbutton mx-2"
+        variant="dark">get Started
+        <i className="bi bi-arrow-right-circle"></i>
+      </Button>
     </form>
   );
 };

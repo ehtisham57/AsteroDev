@@ -16,7 +16,7 @@ const HomeTechnologysec = () => {
           </div>
         </div>
         <div className='col-lg-6 align-items-right'>
-          <img src={tech} width='100%'/>
+          <img src={tech} width='100%'alt='image'/>
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ function MainNav() {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark">
             <Container>
-                <Navbar.Brand href="#home"><img src={logo} width='100' /></Navbar.Brand>
+                <Navbar.Brand href="#home"><img src={logo} width='100' alt='image'/></Navbar.Brand>
                 <Navbar.Toggle className="navtogglebtn" aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="NavLinksDiv m-auto">
