@@ -14,10 +14,10 @@ const HomeCardSec = () => {
         <div className='d-flex CardSecmain container-fluid'>
            <div className='row d-flex mx-auto'>
            <div className='CardSecmainFirstdiv col-lg-4'>
-                <h3>
+                <h3 data-aos="fade-right"  data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     Building <br /> better <br /> solutions!
                 </h3>
-                <Button className="CardSecmainbtn" variant="dark">get Started <i className="bi bi-arrow-right-circle"></i></Button>
+                <Button data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="CardSecmainbtn" variant="dark">get Started <i className="bi bi-arrow-right-circle"></i></Button>
             </div>
             <div className='col-lg-8'>
                 <div className='row my-3'>

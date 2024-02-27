@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 export const BetterSolutionCard = ({src , cardTitleHover, CardTitle, CardPara , CardparaHover, href}) => {
   return (
     <>
-    <div className='col-lg-6'>
+    <div data-aos="fade-up" data-aos-duration="3000" className='col-lg-6'>
                         <Card className='maincardcot my-2 ' >
                             <Card.Img className='cardimage' variant="top" src={src} alt='image'/>
                             <Card.Body>

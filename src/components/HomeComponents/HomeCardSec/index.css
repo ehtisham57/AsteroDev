@@ -123,6 +123,7 @@
 
 .maincardcot:hover .onHoverCard {
     opacity: 1;
+    transition: all .99s;
 }
 
 @media screen and (max-width: 768px) {

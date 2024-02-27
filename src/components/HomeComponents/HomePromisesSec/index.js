@@ -7,10 +7,10 @@ export const HomePromisesSec = () => {
         <div className='container-fluid HomePromisesSec'>
             <div className='container mx-auto d-flex justify-content-center'>
                 <div className='HomePromisesSecHeading'>
-                    <h1>
+                    <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                         Our Promises To you!
                     </h1>
-                    <p>
+                    <p data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
                         Nulla eros turpis, lacinia a maximus sit amet, rutrum convallis velit.
                     </p>
@@ -29,17 +29,17 @@ export const HomePromisesSec = () => {
 
             <div className='container d-flex py-5 row mx-auto'>
                 <div className='HomePromisesSecDownHeading col-lg-6 '>
-                    <h1>
+                    <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     Start improving your business today!
                     </h1>
-                    <p>
+                    <p  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
                     Etiam aliquam hendrerit lacus eget varius. <br />
                     Integer efficitur augue a laoreet tempor. 
                     </p>
                 </div>
                 <div className='HomePromisesSecDownImag col-lg-6 '>
-                   <img src={HomePromiseImage} alt='image'/>
+                   <img data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500" src={HomePromiseImage} alt='image'/>
                 </div>
             </div>
         </div>

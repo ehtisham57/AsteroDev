@@ -8,7 +8,7 @@ const HomeMainHead = () => {
             <div className='Homemaindiv'>
                 <div className='container Homeimagediv'>
                    
-                        <h5>
+                        <h5 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                             {/* <div className='divStyle'> </div> */}
                             WE <br / >
                             IMPLEMENT<br / >
@@ -16,7 +16,7 @@ const HomeMainHead = () => {
                              
                         </h5>
                     
-                       <div className='paradiv'>
+                       <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" className='paradiv'>
                        <p className='Homeparatext'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br / >
                              Etiam aliquam hendrerit lacus eget varius. Integer efficitur <br / > augue a laoreet tempor. 

@@ -8,7 +8,7 @@ const ContactMainHead = () => {
             <div className='Contactmaindiv'>
                 <div className='container Contactimagediv'>
 
-                    <h5>Contact US</h5>
+                    <h5 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Contact US</h5>
                 </div>
             </div>
         </>

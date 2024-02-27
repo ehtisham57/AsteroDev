@@ -15,7 +15,7 @@ export const SliderSatisfiedCustomers = () => {
         <div className='SliderSatisfiedCustomers container-fluid'>
             <div className='mx-auto d-flex justify-content-center container'>
                 <div className='SliderSatisfiedCustomersHeading'>
-                    <h1>
+                    <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                         Words from Satisfied < br /> Customers
                     </h1>
                 </div>

@@ -12,12 +12,13 @@ const Footer = () => {
         <div className='container-fluid m-0 FooterMain'>
             <div className='container'>
                 <div className='FooterHeading'>
-                    <h1>Let’s <span>Talk</span> </h1>
+                    <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                        Let’s <span>Talk</span> </h1>
                 </div>
 
-                <div className='FooterBody '>
+                <div className='FooterBody' data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
                     <div className='row justify-content-evenly d-flex'>
-                        <div className='col-lg-4 LogoText'>
+                        <div className='col-lg-4 LogoText' data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
                             <img src={logo} alt='image'/>
                             <p>We help you make the most of your investment with
                                 end-to-end premium web solutions suited to your precise
@@ -25,7 +26,7 @@ const Footer = () => {
                             </p>
                             <div className='SocialLink'></div>
                         </div>
-                        <div className='col-lg-4 QuickLinks'>
+                        <div className='col-lg-4 QuickLinks' data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
                             <h1>Quick Links</h1>
                             <div className='QuickLinksRow d-flex row'>
                                 <div className='col-lg-6'>
@@ -50,7 +51,7 @@ const Footer = () => {
                         </div>
 
 
-                        <div className='col-lg-4 Address'>
+                        <div className='col-lg-4 Address' data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
                             <h1>Address</h1>
                             <div className='AddressInfo d-flex'>
                                 <LocalPhoneIcon className='FooterAddressIcon' /> <h6>(469) 780-8890</h6>
@@ -68,7 +69,7 @@ const Footer = () => {
                 </div>
 
                 <div className='FooterFooter'>
-                    <div className='d-flex row FooterFooterLinks'>
+                    <div className='d-flex row FooterFooterLinks' >
                         <div className='col-lg-4'>
                             <div className='d-flex Footertruspilot'>
                                 <img src={star} className='mx-0' alt='image'/> <img className='mx-0' src={tul} alt='image' />

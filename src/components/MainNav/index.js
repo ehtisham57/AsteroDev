@@ -8,7 +8,8 @@ import {NavLink} from 'react-router-dom'
 
 function MainNav() {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark">
+        <Navbar data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000"
+        collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark">
             <Container>
                 <Navbar.Brand href="#home"><img src={logo} width='100' alt='image'/></Navbar.Brand>
                 <Navbar.Toggle className="navtogglebtn" aria-controls="responsive-navbar-nav" />

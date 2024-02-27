@@ -9,6 +9,7 @@
 }
 
 .ContactFormLeft>h1 {
+    user-select: none;
     font-family: Inter;
     font-size: 60px;
     text-transform: capitalize;
@@ -20,6 +21,7 @@
 }
 
 .ContactFormLeft>p {
+    user-select: none;
     margin: 30px 0;
     font-family: Inter;
     font-size: 16px;
@@ -31,7 +33,8 @@
 }
 
 .ContactFormRight {
-    border-radius: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -48,7 +51,7 @@
 }
 
 .ContactFormRight>p {
-    margin: 30px 30px;
+    margin: 10px 30px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 100;
@@ -60,10 +63,11 @@
 
 .ContactMainForm {
     width: 100%;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
-.ContactMainForm>input {
+.ContactMainForm>input, .ContactMainForm > textarea {
+    resize: none;
     width: 90%;
     color: #fff;
     background-color: transparent;
@@ -72,8 +76,17 @@
     padding: 5px 20px;
     margin: 10px 0; 
 }
+.ContactMainForm>input::after{
+ width: 90%;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    margin: 10px 0; 
+}
 .ContactMainForm >button{
-    margin-top: 50px;
+    margin: 30px 0;
     align-items: left;
     border-radius: 30px;
     padding: 5px 30px;

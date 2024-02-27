@@ -30,7 +30,7 @@ const ContactFormCom = () => {
 
 
   return (
-    <form className='ContactMainForm' onSubmit={handleSubmit}>
+    <form data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" className='ContactMainForm' onSubmit={handleSubmit}>
 
       <input
         placeholder='Name'
@@ -51,18 +51,16 @@ const ContactFormCom = () => {
       <input
         placeholder='Phone Number'
         type="number"
-        name="phone"
+        name="number"
         value={formData.number}
         onChange={handleInputChange}
       />
       <br />
-      <input
-        placeholder='Message'
-        type="text"
-        name="email"
+      <textarea placeholder='Message'
+        name="message"
         value={formData.message}
         onChange={handleInputChange}
-      />
+        rows="4"></textarea>
       <br />
       <Button
         onSubmit={handleSubmit}
