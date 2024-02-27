@@ -30,7 +30,7 @@ const ContactFormCom = () => {
 
 
   return (
-    <form data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" className='ContactMainForm' onSubmit={handleSubmit}>
+    <form data-aos="fade-up" data-aos-duration="1500" className='ContactMainForm' onSubmit={handleSubmit}>
 
       <input
         placeholder='Name'

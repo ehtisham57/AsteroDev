@@ -3,7 +3,7 @@ import React from 'react'
 const CustomerCard = ({src,username,detail,heading,paragraph}) => {
   return (
     <>
-    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" 
+    <div data-aos="fade-down" data-aos-duration="1500" 
     className="SliderSatisfiedCard mx-auto col-lg-3 col-md-6 col-sm-12" style={{ width: "18rem" }}>
                         <div className="SliderSatisfiedCardBody">
                             <h5>{heading}</h5>

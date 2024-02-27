@@ -92,8 +92,12 @@
 }
 
 @media screen and (max-width: 768px) {
+    .Homemaindiv {
+        min-height: 50vh;    
+    }
     .Homeimagediv {
         align-items: start;
+        min-height: 40vh;
     }
 
     .Homeimagediv>h5 {

@@ -17,10 +17,10 @@ export const ContactLifecyclesec = () => {
 
         <div className=' col-lg-6 col-md-12'>
           <div className='ContactItpartnerSecMainHeading'>
-            <h1 data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
+            <h1 data-aos="fade-right" data-aos-duration="1500">
               Software Development Lifecycle
             </h1>
-            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" className='row ContactItpartnerSecMiniCardRow mx-0'>
+            <div data-aos="fade-down" data-aos-duration="1500" className='row ContactItpartnerSecMiniCardRow mx-0'>
               <div className='col-lg-3 col-md-12 ContactItpartnerSecMini'>
                 <img src={v1} alt='image' />
                 <p>Planning & Requirements Gathering</p>
@@ -41,8 +41,8 @@ export const ContactLifecyclesec = () => {
         </div>
 
         <div className='ContactItpartnerSecimg col-lg-6 col-md-12'>
-          <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500" className='ContactpartPeople'>
-            <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" className="dotsImage" src={dots} alt='image'/>
+          <div data-aos="fade-left" data-aos-duration="1500" className='ContactpartPeople'>
+            <img data-aos="fade-down" data-aos-duration="1500" className="dotsImage" src={dots} alt='image'/>
             <div className='card ContactpartPeopleCard'>
               <img className="peopleImagecontact" src={contactreaserch} alt='image' />
               <div className='ContactpartPeopleCardText'>

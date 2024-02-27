@@ -8,7 +8,7 @@ const AboutMainHead = () => {
             <div className='Aboutmaindiv'>
                 <div className='container Aboutimagediv'>
 
-                    <h5 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">About US</h5>
+                    <h5 data-aos="fade-down" data-aos-duration="1500">About US</h5>
                 </div>
             </div>
         </>

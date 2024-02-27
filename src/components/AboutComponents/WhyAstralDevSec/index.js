@@ -13,7 +13,7 @@ export const WhyAstralDevSec = () => {
 
                         <div className='row WhyAstralDevSecDividleft'>
                             <div className='col-lg-6 col-md-12'  >
-                            <div className='PersonalizedBusinessPackage' data-aos="fade-right" data-aos-duration="3000">
+                            <div className='PersonalizedBusinessPackage' data-aos="fade-up" data-aos-duration="3000">
                                     <h1>
                                         Personalized Business Package
                                     </h1>
@@ -69,7 +69,7 @@ export const WhyAstralDevSec = () => {
                             <h1 data-aos="fade-down" data-aos-duration="3000">
                                 Why Astral  <br /> Developers
                             </h1>
-                            <p data-aos="fade-left" data-aos-duration="3000">
+                            <p data-aos="fade-down" data-aos-duration="3000">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
                                 Etiam aliquam hendrerit lacus eget varius. <br />
                                 Integer efficitur augue a laoreet tempor.
