@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import "./index.css"
 
 const HomeMainHead = () => {
@@ -22,7 +23,7 @@ const HomeMainHead = () => {
                              Etiam aliquam hendrerit lacus eget varius. Integer efficitur <br / > augue a laoreet tempor. 
                             
                         </p>
-                         <Button className="Homemainbutton mx-2" variant="dark">get Started <i className="bi bi-arrow-right-circle"></i></Button> 
+                         <Button className="d-flex Homemainbutton mx-2" variant="dark">get Started <span className='ArrowbtnSpn'> <ArrowRightAltIcon className='arrowbtn' /></span></Button> 
                        </div>
                        
                 </div>
