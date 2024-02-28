@@ -5,6 +5,7 @@ import v1 from "./assets/v1.png";
 import v2 from "./assets/v2.png"
 import v4 from "./assets/v4.png"
 import { BetterSolutionCard } from '../../allComponents/BetterSolutionCard';
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 
 const HomeCardSec = () => {
@@ -17,7 +18,7 @@ const HomeCardSec = () => {
                 <h3 data-aos="fade-down"  data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     Building <br /> better <br /> solutions!
                 </h3>
-                <Button data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="CardSecmainbtn" variant="dark">get Started <i className="bi bi-arrow-right-circle"></i></Button>
+                <Button data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="CardSecmainbtn" variant="dark">get Started <span className='ArrowbtnSpn'> <ArrowRightAltIcon className='arrowbtn' /></span></Button>
             </div>
             <div className='col-lg-8'>
                 <div className='row my-3'>

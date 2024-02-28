@@ -3,6 +3,7 @@ import "./index.css"
 import lock from "./assets/lock.png"
 import mobile from "./assets/mobileview.png"
 import personal from "./assets/personal.png"
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 export const WhyAstralDevSec = () => {
     return (
@@ -75,7 +76,7 @@ export const WhyAstralDevSec = () => {
                                 Integer efficitur augue a laoreet tempor.
                             </p>
                             
-                            <button data-aos="fade-up" data-aos-duration="3000" className='WhyAstralDevSecparaDownButton'>Get Started</button>
+                            <button data-aos="fade-up" data-aos-duration="3000" className='WhyAstralDevSecparaDownButton'>Get Started <span className='ArrowbtnSpn'> <ArrowRightAltIcon className='arrowbtn' /></span></button>
                         </div>
 
 

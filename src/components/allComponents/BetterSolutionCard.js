@@ -1,4 +1,5 @@
 import React from 'react'
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import Card from 'react-bootstrap/Card';
 
 export const BetterSolutionCard = ({src , cardTitleHover, CardTitle, CardPara , CardparaHover, href}) => {
@@ -15,7 +16,7 @@ export const BetterSolutionCard = ({src , cardTitleHover, CardTitle, CardPara , 
                                 <h3>{cardTitleHover}</h3>
                                 <p>{CardparaHover}</p>
 
-                                 <a href={href}>Learn more</a>
+                                 <a href={href}>Learn more <span className='ArrowbtnSpn'> <ArrowRightAltIcon className='arrowbtn' /></span></a>
                             </div>
                         </Card>
                     </div>

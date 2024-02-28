@@ -1,6 +1,7 @@
 import React from 'react'
 import CheckIcon from '@mui/icons-material/Check';
 import it from "./HomeItPartImage.png"
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import './index.css'
 
 export const HomeItPartSec = () => {
@@ -30,7 +31,7 @@ export const HomeItPartSec = () => {
             </p>
            
           </div> 
-          <button  data-aos="fade-down" data-aos-duration="1500" className='HomeItpartnerSecparaDownButton'>Get Started</button>
+          <button  data-aos="fade-down" data-aos-duration="1500" className='HomeItpartnerSecparaDownButton'>Get Started <span className='ArrowbtnSpn'> <ArrowRightAltIcon className='arrowbtn' /></span></button>
 
           <div data-aos="fade-up" data-aos-duration="1500" className='HomeItpartnerSecListDown'>
             <p>

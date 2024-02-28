@@ -4,22 +4,6 @@
     margin: 0;
 
 }
-.ArrowbtnSpn{
-    text-align: center;
-    justify-content: center;
-  
-    margin-left: 30px;
-}
-.arrowbtn{
-     text-align: center;
-    justify-content: center;
-    background-color: #00AB8A;
-    border-radius: 50%;
-    text-align: center;
-    margin:auto;
-    color: #ffffff;
-}
-
 .Homeimagediv {
     background-image: url("./maindivimage.png");
     background-position: center;
@@ -76,6 +60,7 @@
 }
 
 .Homemainbutton {
+    margin-bottom: 20px;
     margin-top: 50px;
     align-items: left;
     border-radius: 30px;

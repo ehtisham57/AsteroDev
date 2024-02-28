@@ -2,6 +2,7 @@ import React from 'react'
 import CheckIcon from '@mui/icons-material/Check';
 import people from "./assets/aboutpeople.png"
 import dots from "./assets/dots.png"
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 import './index.css'
 
@@ -23,7 +24,7 @@ export const AboutItPartSec = () => {
           </div>
 
 
-          <button data-aos="fade-up" data-aos-duration="1500" className='AboutItpartnerSecparaDownButton'>Get Started</button>
+          <button data-aos="fade-up" data-aos-duration="1500" className='AboutItpartnerSecparaDownButton'>Get Started <span className='ArrowbtnSpn'> <ArrowRightAltIcon className='arrowbtn' /></span></button>
 
         </div>
 

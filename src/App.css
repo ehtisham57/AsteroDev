@@ -28,6 +28,21 @@
   color: #61dafb;
 }
 
+.ArrowbtnSpn{
+  text-align: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+.arrowbtn{
+   text-align: center;
+  justify-content: center;
+  background-color: #00AB8A;
+  border-radius: 50%;
+  text-align: center;
+  margin:auto;
+  color: #ffffff;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
